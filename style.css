@@ -111,3 +111,40 @@ main{
     padding: 28px 34px 0px 26px;
     gap: 55px;
 }
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    gap: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    padding: 20px 56px 20px 56px;
+    background-color: #FFF7F3;
+}
+.logo-footer{
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    width: 265px;
+}
+
+.texto-footer{
+    display: flex;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: #C599B6;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
